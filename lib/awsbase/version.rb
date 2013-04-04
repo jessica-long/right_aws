@@ -1,8 +1,8 @@
 module RightAws #:nodoc:
   module VERSION #:nodoc:
-    MAJOR = 3  unless defined?(MAJOR)
+    MAJOR = 4  unless defined?(MAJOR)
     MINOR = 0  unless defined?(MINOR)
-    TINY  = 5  unless defined?(TINY)
+    TINY  = 0  unless defined?(TINY)
 
     STRING = [MAJOR, MINOR, TINY].join('.') unless defined?(STRING)
   end
